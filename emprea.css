@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.encabezado {
+    font-size: 50px;
+    background-image: url('emcabezado2.jpeg');
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+.menu
+{   
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    align-items: center;
+}
+.coffe {
+    text-align: center; 
+    margin: 10px;
+    flex: 1;
+    border-style: calc();
+    border-radius: 10%;
+}
